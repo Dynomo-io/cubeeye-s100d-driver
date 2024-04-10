@@ -1,0 +1,23 @@
+
+						CUBE EYE 3D DEPTH CAMERA
+
+						http://www.cube-eye.co.kr
+				Cube Eye, the perfect solution for your business.
+			Copyright : Copyright 2015 meerecompany. All rights reserved.
+
+
+* author	: erato
+* release 	: v2.1.7
+* date 		: 2021-05-17
+
+
+* fixed		:
+	- CubeEyeCamera
+		1. fixed typo : illuminationLock -> IlluminationLock. 
+
+* bug fixed :
+	- MDC100SF :
+		1. When searching device then missing serailNumber in UVC Scanner(windows).
+
+	- example files :
+		1. fixed 'out_of_range' error.
