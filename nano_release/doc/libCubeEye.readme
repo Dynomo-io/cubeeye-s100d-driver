@@ -1,0 +1,19 @@
+
+						CUBE EYE 3D DEPTH CAMERA
+
+						http://www.cube-eye.co.kr
+				Cube Eye, the perfect solution for your business.
+			Copyright : Copyright 2015 meerecompany. All rights reserved.
+
+
+* author	: yjlim
+* release 	: v2.1.12
+* date 		: 2022-2-14
+
+
+* updated :
+	- Common :
+		1. Add example code (opencv visualization, windows project)
+	- S100D :
+		1. Add property (mipi_datalane, lvds_clock_delay)
+		2. Fix USB attached operation
