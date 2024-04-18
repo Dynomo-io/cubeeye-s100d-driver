@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding='ISO-8859-1' standalone='yes' ?>
+<TestRun>
+  <FailedTests>
+    <FailedTest id="32">
+      <Name>CubeEyeCameraTest::camera_testcase_015</Name>
+      <FailureType>Assertion</FailureType>
+      <Location>
+        <File>CubeEyeCameraTest.cpp</File>
+        <Line>399</Line>
+      </Location>
+      <Message>assertion failed
+- Expression: meere::sensor::success == _rt
+- setProperty(amplitude_threshold, 127) : not supported
+</Message>
+    </FailedTest>
+    <FailedTest id="39">
+      <Name>CubeEyeCameraTest::camera_testcase_022</Name>
+      <FailureType>Assertion</FailureType>
+      <Location>
+        <File>CubeEyeCameraTest.cpp</File>
+        <Line>581</Line>
+      </Location>
+      <Message>assertion failed
+- Expression: meere::sensor::success == _rt
+- setProperty(shuffle_mode, on) : not supported
+</Message>
+    </FailedTest>
+    <FailedTest id="40">
+      <Name>CubeEyeCameraTest::camera_testcase_023</Name>
+      <FailureType>Assertion</FailureType>
+      <Location>
+        <File>CubeEyeCameraTest.cpp</File>
+        <Line>607</Line>
+      </Location>
+      <Message>assertion failed
+- Expression: meere::sensor::success == _rt
+- setProperty(shuffle_mode, off) : not supported
+</Message>
+    </FailedTest>
+    <FailedTest id="45">
+      <Name>CubeEyeCameraTest::camera_testcase_028</Name>
+      <FailureType>Assertion</FailureType>
+      <Location>
+        <File>CubeEyeCameraTest.cpp</File>
+        <Line>745</Line>
+      </Location>
+      <Message>assertion failed
+- Expression: meere::sensor::success == _rt
+- setProperty(mean_filter, on) : not supported
+</Message>
+    </FailedTest>
+    <FailedTest id="46">
+      <Name>CubeEyeCameraTest::camera_testcase_029</Name>
+      <FailureType>Assertion</FailureType>
+      <Location>
+        <File>CubeEyeCameraTest.cpp</File>
+        <Line>771</Line>
+      </Location>
+      <Message>assertion failed
+- Expression: meere::sensor::success == _rt
+- setProperty(mean_filter, off) : not supported
+</Message>
+    </FailedTest>
+    <FailedTest id="60">
+      <Name>CubeEyeCameraTest::camera_testcase_043</Name>
+      <FailureType>Assertion</FailureType>
+      <Location>
+        <File>CubeEyeCameraTest.cpp</File>
+        <Line>1125</Line>
+      </Location>
+      <Message>assertion failed
+- Expression: 1 &lt; _lenses
+- not supported lenses
+</Message>
+    </FailedTest>
+  </FailedTests>
+  <SuccessfulTests>
+    <Test id="1">
+      <Name>StressTest::stress_testcase_001</Name>
+    </Test>
+    <Test id="2">
+      <Name>CubeEyeListenerTest::listener_testcase_001</Name>
+    </Test>
+    <Test id="3">
+      <Name>CubeEyePropertyTest::property_testcase_001</Name>
+    </Test>
+    <Test id="4">
+      <Name>CubeEyePropertyTest::property_testcase_002</Name>
+    </Test>
+    <Test id="5">
+      <Name>CubeEyePropertyTest::property_testcase_003</Name>
+    </Test>
+    <Test id="6">
+      <Name>CubeEyePropertyTest::property_testcase_004</Name>
+    </Test>
+    <Test id="7">
+      <Name>CubeEyePropertyTest::property_testcase_005</Name>
+    </Test>
+    <Test id="8">
+      <Name>CubeEyePropertyTest::property_testcase_006</Name>
+    </Test>
+    <Test id="9">
+      <Name>CubeEyePropertyTest::property_testcase_007</Name>
+    </Test>
+    <Test id="10">
+      <Name>CubeEyePropertyTest::property_testcase_008</Name>
+    </Test>
+    <Test id="11">
+      <Name>CubeEyePropertyTest::property_testcase_009</Name>
+    </Test>
+    <Test id="12">
+      <Name>CubeEyePropertyTest::property_testcase_010</Name>
+    </Test>
+    <Test id="13">
+      <Name>CubeEyePropertyTest::property_testcase_011</Name>
+    </Test>
+    <Test id="14">
+      <Name>CubeEyePropertyTest::property_testcase_012</Name>
+    </Test>
+    <Test id="15">
+      <Name>CubeEyePropertyTest::property_testcase_013</Name>
+    </Test>
+    <Test id="16">
+      <Name>CubeEyePropertyTest::property_testcase_014</Name>
+    </Test>
+    <Test id="17">
+      <Name>CubeEyePropertyTest::property_testcase_015</Name>
+    </Test>
+    <Test id="18">
+      <Name>CubeEyeCameraTest::camera_testcase_001</Name>
+    </Test>
+    <Test id="19">
+      <Name>CubeEyeCameraTest::camera_testcase_002</Name>
+    </Test>
+    <Test id="20">
+      <Name>CubeEyeCameraTest::camera_testcase_003</Name>
+    </Test>
+    <Test id="21">
+      <Name>CubeEyeCameraTest::camera_testcase_004</Name>
+    </Test>
+    <Test id="22">
+      <Name>CubeEyeCameraTest::camera_testcase_005</Name>
+    </Test>
+    <Test id="23">
+      <Name>CubeEyeCameraTest::camera_testcase_006</Name>
+    </Test>
+    <Test id="24">
+      <Name>CubeEyeCameraTest::camera_testcase_007</Name>
+    </Test>
+    <Test id="25">
+      <Name>CubeEyeCameraTest::camera_testcase_008</Name>
+    </Test>
+    <Test id="26">
+      <Name>CubeEyeCameraTest::camera_testcase_009</Name>
+    </Test>
+    <Test id="27">
+      <Name>CubeEyeCameraTest::camera_testcase_010</Name>
+    </Test>
+    <Test id="28">
+      <Name>CubeEyeCameraTest::camera_testcase_011</Name>
+    </Test>
+    <Test id="29">
+      <Name>CubeEyeCameraTest::camera_testcase_012</Name>
+    </Test>
+    <Test id="30">
+      <Name>CubeEyeCameraTest::camera_testcase_013</Name>
+    </Test>
+    <Test id="31">
+      <Name>CubeEyeCameraTest::camera_testcase_014</Name>
+    </Test>
+    <Test id="33">
+      <Name>CubeEyeCameraTest::camera_testcase_016</Name>
+    </Test>
+    <Test id="34">
+      <Name>CubeEyeCameraTest::camera_testcase_017</Name>
+    </Test>
+    <Test id="35">
+      <Name>CubeEyeCameraTest::camera_testcase_018</Name>
+    </Test>
+    <Test id="36">
+      <Name>CubeEyeCameraTest::camera_testcase_019</Name>
+    </Test>
+    <Test id="37">
+      <Name>CubeEyeCameraTest::camera_testcase_020</Name>
+    </Test>
+    <Test id="38">
+      <Name>CubeEyeCameraTest::camera_testcase_021</Name>
+    </Test>
+    <Test id="41">
+      <Name>CubeEyeCameraTest::camera_testcase_024</Name>
+    </Test>
+    <Test id="42">
+      <Name>CubeEyeCameraTest::camera_testcase_025</Name>
+    </Test>
+    <Test id="43">
+      <Name>CubeEyeCameraTest::camera_testcase_026</Name>
+    </Test>
+    <Test id="44">
+      <Name>CubeEyeCameraTest::camera_testcase_027</Name>
+    </Test>
+    <Test id="47">
+      <Name>CubeEyeCameraTest::camera_testcase_030</Name>
+    </Test>
+    <Test id="48">
+      <Name>CubeEyeCameraTest::camera_testcase_031</Name>
+    </Test>
+    <Test id="49">
+      <Name>CubeEyeCameraTest::camera_testcase_032</Name>
+    </Test>
+    <Test id="50">
+      <Name>CubeEyeCameraTest::camera_testcase_033</Name>
+    </Test>
+    <Test id="51">
+      <Name>CubeEyeCameraTest::camera_testcase_034</Name>
+    </Test>
+    <Test id="52">
+      <Name>CubeEyeCameraTest::camera_testcase_035</Name>
+    </Test>
+    <Test id="53">
+      <Name>CubeEyeCameraTest::camera_testcase_036</Name>
+    </Test>
+    <Test id="54">
+      <Name>CubeEyeCameraTest::camera_testcase_037</Name>
+    </Test>
+    <Test id="55">
+      <Name>CubeEyeCameraTest::camera_testcase_038</Name>
+    </Test>
+    <Test id="56">
+      <Name>CubeEyeCameraTest::camera_testcase_039</Name>
+    </Test>
+    <Test id="57">
+      <Name>CubeEyeCameraTest::camera_testcase_040</Name>
+    </Test>
+    <Test id="58">
+      <Name>CubeEyeCameraTest::camera_testcase_041</Name>
+    </Test>
+    <Test id="59">
+      <Name>CubeEyeCameraTest::camera_testcase_042</Name>
+    </Test>
+    <Test id="61">
+      <Name>CubeEyeCameraTest::camera_testcase_044</Name>
+    </Test>
+    <Test id="62">
+      <Name>CubeEyeCameraTest::camera_testcase_045</Name>
+    </Test>
+    <Test id="63">
+      <Name>CommandTest::command_testcase_001</Name>
+    </Test>
+    <Test id="64">
+      <Name>CommandTest::command_testcase_002</Name>
+    </Test>
+    <Test id="65">
+      <Name>CommandTest::command_testcase_003</Name>
+    </Test>
+    <Test id="66">
+      <Name>CommandTest::command_testcase_004</Name>
+    </Test>
+    <Test id="67">
+      <Name>CommandTest::command_testcase_005</Name>
+    </Test>
+    <Test id="68">
+      <Name>CommandTest::command_testcase_006</Name>
+    </Test>
+    <Test id="69">
+      <Name>CommandTest::command_testcase_007</Name>
+    </Test>
+    <Test id="70">
+      <Name>CommandTest::command_testcase_008</Name>
+    </Test>
+    <Test id="71">
+      <Name>CommandTest::command_testcase_009</Name>
+    </Test>
+    <Test id="72">
+      <Name>CommandTest::command_testcase_010</Name>
+    </Test>
+    <Test id="73">
+      <Name>CommandTest::command_testcase_011</Name>
+    </Test>
+    <Test id="74">
+      <Name>CommandTest::command_testcase_012</Name>
+    </Test>
+    <Test id="75">
+      <Name>CommandTest::command_testcase_013</Name>
+    </Test>
+    <Test id="76">
+      <Name>CommandTest::command_testcase_014</Name>
+    </Test>
+    <Test id="77">
+      <Name>CommandTest::command_testcase_015</Name>
+    </Test>
+    <Test id="78">
+      <Name>CommandTest::command_testcase_016</Name>
+    </Test>
+    <Test id="79">
+      <Name>CommandTest::command_testcase_017</Name>
+    </Test>
+    <Test id="80">
+      <Name>CommandTest::command_testcase_018</Name>
+    </Test>
+    <Test id="81">
+      <Name>CubeEyeFrameTest::frame_testcase_001</Name>
+    </Test>
+    <Test id="82">
+      <Name>CubeEyeFrameTest::frame_testcase_002</Name>
+    </Test>
+    <Test id="83">
+      <Name>CubeEyeFrameTest::frame_testcase_003</Name>
+    </Test>
+    <Test id="84">
+      <Name>CubeEyeFrameTest::frame_testcase_004</Name>
+    </Test>
+    <Test id="85">
+      <Name>CubeEyeFrameTest::frame_testcase_005</Name>
+    </Test>
+    <Test id="86">
+      <Name>CubeEyeSourceTest::source_testcase_001</Name>
+    </Test>
+    <Test id="87">
+      <Name>CubeEyeSourceTest::source_testcase_002</Name>
+    </Test>
+  </SuccessfulTests>
+  <Statistics>
+    <Tests>87</Tests>
+    <FailuresTotal>6</FailuresTotal>
+    <Errors>0</Errors>
+    <Failures>6</Failures>
+  </Statistics>
+</TestRun>

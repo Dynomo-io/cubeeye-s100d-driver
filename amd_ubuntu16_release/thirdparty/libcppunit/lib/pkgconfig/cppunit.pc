@@ -1,0 +1,11 @@
+prefix=/home/yjlim/work/env/ubuntu16.04/release/cubeeye_sdk/v2.1.12/thirdparty/target/x86_64-ubuntu-linux-16_04/libcppunit
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: CppUnit
+Description: The C++ Unit Test Library
+Version: 1.14.0
+Libs: -L${libdir} -lcppunit
+Libs.private: -ldl
+Cflags: -I${includedir}
