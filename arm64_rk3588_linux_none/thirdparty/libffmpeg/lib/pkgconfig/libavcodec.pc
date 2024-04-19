@@ -1,0 +1,14 @@
+prefix=/home/erato/src/projects/cubeeye2.0/thirdparty/target/arm64-rk3588-linux-none/libffmpeg
+exec_prefix=${prefix}
+libdir=/home/erato/src/projects/cubeeye2.0/thirdparty/target/arm64-rk3588-linux-none/libffmpeg/lib
+includedir=/home/erato/src/projects/cubeeye2.0/thirdparty/target/arm64-rk3588-linux-none/libffmpeg/include
+
+Name: libavcodec
+Description: FFmpeg codec library
+Version: 58.134.100
+Requires: 
+Requires.private: libswresample >= 3.9.100, libavutil >= 56.70.100
+Conflicts:
+Libs: -L${libdir}  -lavcodec 
+Libs.private: -pthread -lm
+Cflags: -I${includedir}

@@ -1,0 +1,14 @@
+prefix=/home/erato/src/projects/cubeeye2.0/thirdparty/target/arm64-rk3588-linux-none/libffmpeg
+exec_prefix=${prefix}
+libdir=/home/erato/src/projects/cubeeye2.0/thirdparty/target/arm64-rk3588-linux-none/libffmpeg/lib
+includedir=/home/erato/src/projects/cubeeye2.0/thirdparty/target/arm64-rk3588-linux-none/libffmpeg/include
+
+Name: libavfilter
+Description: FFmpeg audio/video filtering library
+Version: 7.110.100
+Requires: 
+Requires.private: libswscale >= 5.9.100, libavformat >= 58.76.100, libavcodec >= 58.134.100, libswresample >= 3.9.100, libavutil >= 56.70.100
+Conflicts:
+Libs: -L${libdir}  -lavfilter 
+Libs.private: -pthread -lm
+Cflags: -I${includedir}
